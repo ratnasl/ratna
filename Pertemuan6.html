@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Pendaftaran Pengguna</title>
+</head>
+<body>
+    <div class="form-container">  
+        <form action="#" method="post">
+            <label for="first-name">Nama Depan</label>
+            <input type="text" id="first-name" name="first-name" required>
+
+            <label for="middle-name">Nama Tengah</label>
+            <input type="text" id="middle-name" name="middle-name">
+
+            <label for="last-name">Nama Belakang</label>
+            <input type="text" id="last-name" name="last-name" required>
+
+            <label for="birth-date">Tanggal Lahir</label>
+            <input type="date" id="birth-date" name="birth-date" required>
+
+            <fieldset>
+                <legend>Jenis Kelamin</legend>
+                <label>
+                    <input type="radio" name="gender" value="male" required>Pria
+                </label>
+                <label>
+                    <input type="radio" name="gender" value="female">Wanita
+                </label>
+            </fieldset>
+
+            <label for="location">Tempat Tinggal</label>
+            <input type="text" id="location" name="location" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Telepon</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="submit">DAFTAR</button>
+        </form>
+        <a href="#">Kembali</a>
+    </div>
+</body>
+</html>
